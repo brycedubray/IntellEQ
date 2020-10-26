@@ -43,7 +43,7 @@ nn3 = NNet(
     #           [...]],       # inner []' for each row,
     #          [[...],        # middle []'s for each layer,
     #               ]]]       #
-    sizes=[7, 10, 1],           # connect [input, hidden, ..., output] layers
+    sizes=[6, 4, 1],           # connect [input, hidden, ..., output] layers
                             # with 2D lists of random weights
                             # comment this out when weights are specified
     # bias=[True],           # specify if any are True
