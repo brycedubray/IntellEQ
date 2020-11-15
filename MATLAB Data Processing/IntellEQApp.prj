@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3591766912" file="/Users/bwdubray99/AI/IntellEQ_DuBray_Mohammadi/MATLAB Data Processing/IntellEQApp.prj" location="/Users/bwdubray99/AI/IntellEQ_DuBray_Mohammadi/MATLAB Data Processing" name="IntellEQApp" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2235462044" file="/Users/bwdubray99/AI/IntellEQ_DuBray_Mohammadi/MATLAB Data Processing/IntellEQApp.prj" location="/Users/bwdubray99/AI/IntellEQ_DuBray_Mohammadi/MATLAB Data Processing" name="IntellEQApp" target="target.mlapps" target-name="Package App">
     <param.appname>IntellEQApp</param.appname>
     <param.authnamewatermark>Bryce DuBray</param.authnamewatermark>
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot />
+    <param.screenshot>/private/var/folders/kl/dqv6mymd075d1n0__hmwdhg00000gn/T/tp40aff672_cd5e_49f2_b5a5_7c988b8c7eca.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -23,7 +23,6 @@
       <param.icons />
       <param.summary />
       <param.description />
-      <param.screenshot />
       <param.version />
       <param.products.name />
       <param.products.id />
