@@ -4,8 +4,15 @@ from nnet import NNet
 from verbosePrint import vprint
 import verbosePrint
 
-
+# single hidden layer
 # nn = NNet(sizes=[6, 12, 6], bias=False)
+
+#dropout mask
+# nn.setMaskPr({1:0.1,})
+
+#multiple hidden layers
+# nn = NNet(sizes=[6, 12, 8, 6, 6], bias=False)
+
 nn = NNet(
     [
         [[  2.84713837,  -8.78179412,   8.10642596,  -3.07793699,
@@ -54,7 +61,11 @@ nn = NNet(
 
     ], bias=False)
 
+# single hidden layer
 nn.setActivations(['tanh', 'softmax'])
+
+#multiple hidden layers
+# nn.setActivations(['tanh', 'tanh', 'tanh', 'softmax'])
 nn.setAlpha(0.1)
 nn.setVerbose([])
 
